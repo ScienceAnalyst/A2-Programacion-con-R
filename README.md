@@ -1,4 +1,4 @@
-# A2-Programacion-con-R
+# A2-Programación-con-R
 
 Bienvenidos al curso de Programación con R! 
 En este primer módulo vamos a aprender cómo funciona R y escribiremos nuestras primeras líneas de código. 
