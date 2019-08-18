@@ -4,8 +4,8 @@
 install.packages("ggplot2")
 
 # Cargando el paquete para poder usarlo. Esta operación tendré que repetirla cada vez que reinicie el programa y quiera usar el paquete
-library("dplyr")
+library("ggplot2")
 
 # Solicito ayuda / información de la descripción y uso de este paquete
-?dplyr
+?ggplot2
 
