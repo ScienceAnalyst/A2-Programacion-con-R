@@ -3,7 +3,7 @@
 install.packages("dplyr")
 library(dplyr)
 
-# Dplyr nos ayudar?? a hacer consultas, agregaciones y filtros de datos de manera rápida
+# Dplyr nos ayudará a hacer consultas, agregaciones y filtros de datos de manera rápida
 # Su uso es similar al de SQL (dispone de funciones como select, left join, inner join y group by)
 # Además, dispone de algunas propias (filter, summarise, arrange y mutate)
 
