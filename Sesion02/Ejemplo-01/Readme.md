@@ -1,4 +1,4 @@
-`Data Science` > [`Progrmación con R`]
+`Data Science` > [`Programación con R`]
 ## Funciones, condiciones y loops 
 
 ### OBJETIVO
