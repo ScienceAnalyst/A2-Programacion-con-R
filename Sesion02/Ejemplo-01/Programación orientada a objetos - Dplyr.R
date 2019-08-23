@@ -2,7 +2,7 @@
 install.packages("dplyr")
 library(dplyr)
 
-datos <- read.csv("data.csv", header=TRUE)
+datos <- read.csv("../data.csv", header=TRUE)
 head(data)
 
 sample_n(datos,8)
