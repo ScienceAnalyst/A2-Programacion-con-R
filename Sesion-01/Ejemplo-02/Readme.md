@@ -1,4 +1,4 @@
-`Data Science` > [`Programación con R`]
+`Data Science` > [`Programacion con R`]
 ## Paquetes  
 
 ### OBJETIVO
@@ -11,21 +11,21 @@
 
 #### DESARROLLO
 
-Instalaremos un paquete de mi elección, en este caso, ggplot2, que me permitiran hacer ejercicios de visualización.
+Instalaremos un paquete de mi eleccion, en este caso, ggplot2, que me permitiran hacer ejercicios de visualizacion.
 
-Esta opción solo la tengo que realizar una vez y ya queda almacenado en la memoria de nuestro RStudio
+Esta opcion solo la tengo que realizar una vez y ya queda almacenado en la memoria de nuestro RStudio
 
 ```{r}
 install.packages("ggplot2")
 ```
 
-Cargando el paquete para poder usarlo. Esta operación tendrá que repetirla cada vez que reinicie el programa y quiera usar el paquete
+Cargando el paquete para poder usarlo. Esta operacion tendra que repetirla cada vez que reinicie el programa y quiera usar el paquete
 
 ```{r}
 library("ggplot2")
 ```
 
-Solicito ayuda / información de la descripción y uso de este paquete
+Solicito ayuda / informacion de la descripcion y uso de este paquete
 
 ```{r}
 ?ggplot2

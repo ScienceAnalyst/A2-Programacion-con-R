@@ -1,17 +1,17 @@
 
 ## Tipo de objetos
 # Character
-# Numeric (Números Reales)
-# Integer (Números Enteros)
-# Complex (Números complejos)
+# Numeric (N??meros Reales)
+# Integer (N??meros Enteros)
+# Complex (N??meros complejos)
 # Logical (True / False)
 x<-1
-class(x)   #número
+class(x)   #numero
 
 y<-"a"
-class(y)   #carácter
+class(y)   #caracter
 
-edad <- c(22, 34, 29, 25, 30, 33, 31, 27, 25, 25) #vector numérico
+edad <- c(22, 34, 29, 25, 30, 33, 31, 27, 25, 25) #vector numerico
 class(edad)
 edad[edad>25] 
 
@@ -19,7 +19,7 @@ letras <- c("a","b","c","d","e") #vector de caracteres
 letras
 class(letras)
 
-mezcla<-c(1,2,3,"a","b","c") #vector alfanumérico 
+mezcla<-c(1,2,3,"a","b","c") #vector alfanumerico 
 mezcla
 class(mezcla)
 
