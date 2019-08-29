@@ -1,3 +1,15 @@
+`Data Science` > [`Programacion con R`]
+## Calculadora  
+
+### OBJETIVO
+- Entender las cuatro divisiones de R.
+- Realizar una operaci??n. 
+
+#### REQUISITOS
+1. Contar con R studio.
+1. Usar la carpeta de trabajo `Sesion01/Ejemplo-02`
+
+#### DESARROLLO
 
 Vamos a realizar una operacion, usaremos R como calculadora. 
 Cuantas horas tiene un ano de 365 dias? 
