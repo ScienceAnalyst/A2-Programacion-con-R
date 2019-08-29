@@ -3,7 +3,7 @@
 
 ### OBJETIVO
 - Entender las cuatro divisiones de R.
-- Realizar una operaci??n. 
+- Realizar una operacion. 
 
 #### REQUISITOS
 1. Contar con R studio.

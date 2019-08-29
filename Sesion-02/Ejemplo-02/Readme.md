@@ -1,5 +1,5 @@
 `Data Science` > [`Programacion con R`]
-## Programaci??n orientada a objetos 
+## Dplyr en un solo comando
 
 ### OBJETIVO
 - Aprenderas a usar dplyr

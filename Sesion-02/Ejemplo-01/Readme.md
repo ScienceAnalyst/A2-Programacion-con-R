@@ -1,5 +1,5 @@
 `Data Science` > [`Programacion con R`]
-## Funciones, condiciones y loops 
+## Dplyr
 
 ### OBJETIVO
 - Aprenderas a cargar un package
