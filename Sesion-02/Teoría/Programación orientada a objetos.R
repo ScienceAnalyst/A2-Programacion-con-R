@@ -1,9 +1,9 @@
 
 ## Tipo de objetos
 # Character
-# Numeric (N??meros Reales)
-# Integer (N??meros Enteros)
-# Complex (N??meros complejos)
+# Numeric (Numeros Reales)
+# Integer (Numeros Enteros)
+# Complex (Numeros complejos)
 # Logical (True / False)
 x<-1
 class(x)   #numero
