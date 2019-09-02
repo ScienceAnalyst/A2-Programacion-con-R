@@ -193,7 +193,6 @@ ggplot(cty_mpg, aes(x=marca, y=millaje)) +
 
 
 
-
 ## Histogramas de distribucion 
 head(mpg)
 vis <- ggplot(mpg, aes(displ)) + scale_fill_brewer(palette = "Spectral")
@@ -208,21 +207,4 @@ vis + geom_histogram(aes(fill=class),
                      col="black", 
                      size=.1) 
 
-
-## Histograma con categorias
-vis <- ggplot(mpg, aes(manufacturer))
-vis + geom_bar(aes(fill=class), width = 0.5) + 
-  theme(axis.text.x = element_text(angle=65, vjust=0.6)) 
-
-
-## Grafico de densidad
-vis <- ggplot(mpg, aes(cty))
-vis + geom_density(aes(fill=factor(cyl)), alpha=0.8)
-
-## Boxplot
-vis <- ggplot(mpg, aes(class, cty))
-vis + geom_boxplot(varwidth=T, fill="plum") 
-
-vis + geom_boxplot(aes(fill=factor(cyl))) + 
-  theme(axis.text.x = element_text(angle=65, vjust=0.6)) 
 
