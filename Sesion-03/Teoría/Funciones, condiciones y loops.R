@@ -52,6 +52,7 @@ while(edad < 18){
 }
 
 
+
 # Creamos un loop infinito (tendremos que presionar stop para aturarlo)
 numero<- 8
 while (numero < 10)  {
