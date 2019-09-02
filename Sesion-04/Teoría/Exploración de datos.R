@@ -158,3 +158,5 @@ train <- df_total[particion,] #70% de los registros
 test <- df_total[-particion,] #30% de los registros
 
 
+
+
