@@ -37,10 +37,18 @@ boxplot(air~cycle(air)) # La media y la varianza de julio y agosto es mucho mas 
 # para evaluar la hipotesis nula de que nuestra serie de tiempo no es estacionaria 
 # Para la funcion adf.test() necesitamos descargar el package "tseries" 
 install.packages("tseries")
+install.packages("ggfortify")
+install.packages("forecast")
 library(tseries)
-adf.test(diff(log(air)), alternative="stationary", k=0)
+library(ggfortify)
+library(forecast)
 
-# La serie de tiempo es lo suficientemente estacionaria para modelarla
+# Vamos a descomponer la serie de tiempo en cuatro compenentes: pasajeros en un tiempo, tendencia, estacionalidad, error
+descair <- decompose(air,"multiplicative")
+autoplot(descair)
+
+adf.test(diff(log(air)), alternative="stationary", k=0) 
+# Con un p-value inferior al 5%, rechazamos la hip??tesis nula. La serie de tiempo es lo suficientemente estacionaria para modelarla
 # Vamos a crear un grafico de correlaciones (ACF - autocorrelation function) 
 acf(log(air)) 
 # Vemos que la caida es muy suave, por lo que no hay muestras de que la poblacion sea estacionaria 
@@ -51,7 +59,9 @@ acf(diff(log(air)))
 # Funcion de autocorrelacion parcial
 pacf(diff(log(air))) # Pico alto en el primer desfase y luego disminuye, por lo que el valor p deberia ser 0
 
-# Creemos un modelo ARMA que haga una prediccion de los futuros diez anos 
-(fit <- arima(log(air), c(0, 1, 1),seasonal = list(order = c(0, 1, 1), period = 12)))
-pred <- predict(fit, n.ahead = 10*12)
-ts.plot(air,2.718^pred$pred, log = "y", lty = c(1,3))
+# Creemos un modelo ARIMA que haga una prediccion de los futuros anos 
+arimaAir <- auto.arima(air)
+arimaAir
+forecastair <- forecast(arimaAir, level = c(95), h = 36) #95% intervalo de confianza, h = periodos de prediccion en meses
+autoplot(forecastair)
+
