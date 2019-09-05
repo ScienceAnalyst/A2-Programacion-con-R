@@ -33,7 +33,7 @@ Organizacion completa de un problema de series de tiempo:
 #### DESARROLLO
 
 
-Importamos los packages necesarios y la data. En este caso tenemos informacion de un servicio de bike sharing. Los ficheros se llaman dia y hora. 
+Importamos los packages necesarios y la data. En este caso tenemos informacion de un servicio de bike sharing. El fichero se llama dia.
 
 ```{r}
 library('ggplot2')
@@ -49,8 +49,7 @@ Observamos que dteday es caracter y tenemos que convertirlo a ts. Creamos un plo
 ```{r}
 dia$dteday <- as.Date(dia$dteday)
 
-ggplot(dia, aes(dteday, cnt)) + geom_line() + scale_x_date('Mes')  + ylab("Bicis usadas diariamente") +
-            xlab("")
+ggplot(dia, aes(dteday, cnt)) + geom_line() + scale_x_date('Mes')  + ylab("Bicis usadas diariamente") + xlab("")
 ```
 Observamos que en invierno disminuye el uso e incrementa en verano 
 
@@ -58,15 +57,13 @@ Vamos a buscar el volumen de outliers y borrarlos de nuestro dataset con la func
 ```{r}
 recuento <- ts(dia[, c('cnt')])
 dia$outliers <- tsclean(recuento)
-ggplot() +
-  geom_line(data = dia, aes(x = dteday, y = outliers)) + ylab('Recuento de bicis sin outliers')
+ggplot() + geom_line(data = dia, aes(x = dteday, y = outliers)) + ylab('Recuento de bicis sin outliers')
 ```
 Todavia observamos una alta volatilidad. Sacaremos la MA (moving average) semanal y mensual de la data para convertir la serie en algo mas estable y, consecuentemente, predecible. 
 
 ```{r}
 dia$recuento_ma_sem = ma(dia$outliers, order=7) 
 dia$recuento_ma_mes = ma(dia$outliers, order=30)
-
 
 ggplot() +
   geom_line(data = dia, aes(x = dteday, y = outliers, colour = "Cuenta")) +
