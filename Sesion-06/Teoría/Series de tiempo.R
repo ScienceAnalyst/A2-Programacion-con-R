@@ -65,3 +65,4 @@ arimaAir
 forecastair <- forecast(arimaAir, level = c(95), h = 36) #95% intervalo de confianza, h = periodos de prediccion en meses
 autoplot(forecastair)
 
+
