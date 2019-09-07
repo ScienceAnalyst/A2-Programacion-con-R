@@ -5,11 +5,10 @@ library(ggplot2)
 library(data.table)
 library(reshape2)
 
-setwd("~/Desktop/Bedu - Introducci??n R/A2-Programacion-con-R/Sesion-07/Teor??a")
+
 pelis <- read.csv("movies.csv",stringsAsFactors = FALSE) # Para evitar que se factoricen las variables categoricas
 links <- read.csv("links.csv", stringsAsFactors = FALSE)
 puntuacion <- read.csv("ratings.csv", stringsAsFactors = FALSE)
-tags <- read.csv("tags.csv", stringsAsFactors = FALSE)
 
 ## Procesamiento de los datos 
 generos <- as.data.frame(pelis$genres, stringsAsFactors=FALSE)
@@ -21,7 +20,7 @@ colnames(generos2) <- c(1:10)
 tipologia <- c("Accion", "Aventura", "Aimacion", "Infantil", "Comedia", "Crimen","Documental", "Drama", "Fantasia",
                 "Film-Noir", "Terror", "Musical", "Misterio","Romance", "Sci-Fi", "Thriller", "Guerra", "Western") # 18 generos
 
-matriz_generos <- matrix(0,9743,18) # 9,742+1 numero de pelis, 18 numero de generos
+matriz_generos <- matrix(0,10330,18) # 10330+1 numero de pelis, 18 numero de generos
 matriz_generos[1,] <- tipologia
 colnames(matriz_generos) <- tipologia 
 
@@ -41,8 +40,8 @@ anos <- as.data.frame(pelis$title, stringsAsFactors=FALSE)
 union <- function(x, n){substr(x, nchar(x)-n+1, nchar(x))}
 anos <- as.data.frame(substr(union(union(anos$`pelis$title`, 6),5),1,4))
 matriz_busqueda <- cbind(pelis[,1], substr(pelis[,2],1,nchar(pelis[,2])-6), anos, matriz_generos2)
-colnames(search_matrix) <- c("movieId", "title", "year", genre_list)
-write.csv(search_matrix, "busqueda.csv")
+colnames(matriz_busqueda) <- c("movieId", "title", "year", genre_list)
+write.csv(matriz_busqueda, "busqueda.csv")
 matriz_busqueda <- read.csv("busqueda.csv", stringsAsFactors=FALSE)
 
 # Para comprobar que funciono nuestro algoritmo, buscaremos una pelicula de accion producida el 1995: 
@@ -84,7 +83,7 @@ rownames(matriz_generos3) <- NULL
 # Calculamos el producto de la matriz de generos y las matriz de calificaciones y obtenemos los perfiles de usuario 
 resultado <- matrix(0,18,668) # 668 usuarios/evaluadores, 18 tiplologias
 for (c in 1:ncol(puntuacionbinaria)){
-  for (i in 1:ncol(generos3)){
+  for (i in 1:ncol(matriz_generos3)){
     resultado[i,c] <- sum((matriz_generos3[,i]) * (puntuacionbinaria[,c])) # Puntuacion por genero 
   }
 }
@@ -202,3 +201,5 @@ evaluacion_resultados <- evaluate(evaluacion,
                                method="UBCF", 
                                n=c(1,3,5,10,15,20))
 evaluacion_resultados2 <- getConfusionMatrix(evaluacion_resultados)[[1]]
+
+
