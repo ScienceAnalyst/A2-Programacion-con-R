@@ -1,11 +1,3 @@
- agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks]  
-## Titulo del Ejemplo 
+`Data Science` > [`Programacion con R`]
 
-### OBJETIVO 
- - Lo que esperamos que el alumno aprenda 
-
-#### REQUISITOS 
-1. Lo necesario para desarrollar el ejemplo o el Reto 
-
-#### DESARROLLO
-
+Para seguir practicando con ejercicios sobre la calculadora de R, podemos usar el siguiente link: <http://rpubs.com/rparra/438560> 
