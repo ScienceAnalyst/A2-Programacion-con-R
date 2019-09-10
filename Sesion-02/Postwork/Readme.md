@@ -1,11 +1,10 @@
- agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks]  
-## Titulo del Ejemplo 
+`Data Science` > [`Programacion con R`]
 
-### OBJETIVO 
- - Lo que esperamos que el alumno aprenda 
+Si quedaste fascinado con el package dplyr, este es tu video, dedicale cinco minutos y luego replica el ejercicio; en el se muestra: 
+* Funcionalidades del package y cuando usarlo
+* Como reducir las lineas de codigo usando %>%
+* Ejemplos de aplicaciones en las bases de datos de muestra de R 
+* Nuevas funciones y conversiones de la data a matrix, characters, etc. 
+* Consolidar funciones complejas de dplyr, tales como: summarise_if, summarise_at, mutate_at
 
-#### REQUISITOS 
-1. Lo necesario para desarrollar el ejemplo o el Reto 
-
-#### DESARROLLO
-
+<https://www.youtube.com/watch?v=cavtFdvII4A> 
