@@ -1,2 +1,1 @@
-De todos los paquetes existentes, instala uno, que ya quedara guardado en la memoria de tu R Studio para siempre! 
-A continuacion, apoyate del modulo de ayuda para saber mas sobre su funcionalidad. 
+Sobre la tabla de ecobici que ya estamos trabajando, crearemos un comando optimizado de varias ordenes apoyandote de la funcion %>%. La primera orden sera un recuento de las estaciones que hay en cada colonia (hint: count). A continuacion pediremos que se ordenen alfabeticamente por nombre de la Colonia. 

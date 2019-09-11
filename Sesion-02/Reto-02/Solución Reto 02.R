@@ -1,6 +1,9 @@
 
-install.packages("dplyr")
-
 library("dplyr")
+ecobici <- read_excel("ecobici.xls")
 
-?dplyr
+ecobici <- ecobici %>% 
+  count(Colonia) %>% 
+  arrange(Colonia)
+
+head(ecobici)
