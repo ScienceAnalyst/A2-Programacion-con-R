@@ -1,5 +1,5 @@
 `Data Science` > [`Programacion con R`]
-## Programacion orientada a objetos  
+## Funciones, condiciones y loops
 
 ### OBJETIVO
 - Usar la funcion for para crear un loop que nos llevara el resultado segun la condicion por la cual estemos filtrando la informacion

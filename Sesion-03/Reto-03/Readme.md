@@ -1,11 +1,12 @@
- agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks]  
-## Titulo del Ejemplo 
+`Data Science` > [`Programacion con R`]
+## Funciones, condiciones y loops
 
-### OBJETIVO 
- - Lo que esperamos que el alumno aprenda 
+### OBJETIVO
+- Usar la funcion unique para crear un obtener los resultados unicos segun la condicion por la cual estemos filtrando la informacion
 
-#### REQUISITOS 
-1. Lo necesario para desarrollar el ejemplo o el Reto 
+#### REQUISITOS
+1. Contar con R studio.
+1. Usar la carpeta de trabajo `Sesion03/Reto-03`
 
 #### DESARROLLO
-
+Seguimos trabajando con la base de ecobici. Ahora queremos comprobar la consistencia entre nombres de Colonias y Codigos Postales. Para ello, usaremos la funcion unique, y llevaremos todos los posibles Codigos Postales de aquellas colonias que se llamen "Roma Norte".

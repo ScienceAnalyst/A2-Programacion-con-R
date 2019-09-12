@@ -1,5 +1,5 @@
 `Data Science` > [`Programacion con R`]
-## Programacion orientada a objetos  
+## Funciones, condiciones y loops
 
 ### OBJETIVO
 - Checar los nulos (o campos vacios) de una variable
