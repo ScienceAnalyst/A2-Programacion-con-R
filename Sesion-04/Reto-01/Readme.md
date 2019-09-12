@@ -1,9 +1,9 @@
 `Data Science` > [`Programacion con R`]
-## Exploraci??n de datos
+## Exploracion de datos
 
 ### OBJETIVO
 - Comprobar la estructura de la tabla
-- Ver correlaciones entre variables
+- Extraer variables en funcion de otras 
 
 #### REQUISITOS
 1. Contar con R studio.
