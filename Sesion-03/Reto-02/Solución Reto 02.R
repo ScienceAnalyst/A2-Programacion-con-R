@@ -3,8 +3,6 @@ library("readxl")
 ecobici <- read_excel("ecobici.xls")
 head(ecobici)
 
-ecobici <- ecobici %>%
-  count(Colonia) %>%
-  arrange (Colonia)
-
-head(ecobici)
+for(i in ecobici$latitud>19.423396){
+  print(i)
+}

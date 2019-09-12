@@ -2,7 +2,7 @@
 ## Programacion orientada a objetos  
 
 ### OBJETIVO
-- Checar los nulos (o campos vac??os) de una variable
+- Checar los nulos (o campos vacios) de una variable
 - Crear nuevas variables 
 - Usar la funcion ifelse para crear una variable condicionada al valor de otra 
 
