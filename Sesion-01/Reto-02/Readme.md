@@ -2,10 +2,10 @@
 ## Operaciones con R.  
 
 ### OBJETIVO
-- Ejecutar la ayuda de paquetes en R.
+- Ejecutar la ayuda de paquetes en R
 
 #### REQUISITOS
-1. Contar con R studio.
+1. Contar con R studio
 1. Usar la carpeta de trabajo `Sesion-01/Reto-02`
 
 #### DESARROLLO

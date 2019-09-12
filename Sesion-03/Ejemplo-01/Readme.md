@@ -18,5 +18,9 @@ if (variable > 40){
 } else {
   print ("La variable no es superior a 40")
 }
-
 ```
+
+Alternativamente, podemos usar la funcion ifelse, que nos ayudara a plantear el resultado a obtener si se cumple la condicion, y a continuacion el resultado a obtener si no se cumple la misma 
+```{r}
+ifelse(variable>40, "La variable es superior a 40", "La variable no es superior a 40")
+``` 
