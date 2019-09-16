@@ -1,5 +1,5 @@
 `Data Science` > [`Programacion con R`]
-## Visualizacion, graficos y tablas
+## Series de tiempo
 
 ### OBJETIVO
 - Crear un histograma
