@@ -1,11 +1,8 @@
- agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks]  
-## Titulo del Ejemplo 
+`Data Science` > [`Programacion con R`]
 
-### OBJETIVO 
- - Lo que esperamos que el alumno aprenda 
+Las series de tiempo son complejas, tanto a nivel conceptual como a nivel de modelaje. Esta bibliografia les permitira profundizar en el tema y convertirse en expertos del tiempo. 
+Este es un libro disponible online (en ingles) sobre el modelaje de historicos y prediccion. 
+<https://arxiv.org/pdf/1302.6613.pdf> 
 
-#### REQUISITOS 
-1. Lo necesario para desarrollar el ejemplo o el Reto 
-
-#### DESARROLLO
-
+Este video (en espanol) les ayudara a consolidar como entender un problema de series de tiempo. 
+<https://www.youtube.com/watch?v=BOCm-HgK7WQ> 

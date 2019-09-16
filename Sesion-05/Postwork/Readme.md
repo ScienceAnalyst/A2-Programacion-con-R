@@ -1,11 +1,8 @@
- agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks]  
-## Titulo del Ejemplo 
+`Data Science` > [`Programacion con R`]
 
-### OBJETIVO 
- - Lo que esperamos que el alumno aprenda 
+Para seguir aprendiendo funcionalidades de ggplot2 y posibilidades de visualizacion, este tutorial sera de gran ayuda (esta en ingles): 
+<https://www.youtube.com/watch?v=1GmQ5BdAhG4> 
 
-#### REQUISITOS 
-1. Lo necesario para desarrollar el ejemplo o el Reto 
-
-#### DESARROLLO
+Otro tutorial interesante y en espa??nol es el siguiente: 
+<https://www.youtube.com/watch?v=nuNeXPxDt-c>
 
