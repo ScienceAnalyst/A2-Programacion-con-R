@@ -1,11 +1,13 @@
- agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks]  
-## Titulo del Ejemplo 
+`Data Science` > [`Programacion con R`]
+## Exploracion de datos
 
-### OBJETIVO 
- - Lo que esperamos que el alumno aprenda 
+### OBJETIVO
+- Encontrar los diferentes valores de una columna
 
-#### REQUISITOS 
-1. Lo necesario para desarrollar el ejemplo o el Reto 
+
+#### REQUISITOS
+1. Contar con R studio.
+1. Usar la carpeta de trabajo `Sesion04/Reto-03`
 
 #### DESARROLLO
-
+Seguiremos limpiando nuestra tabla. Sabemos que "Tipo" de Ecobici es BIKE, pero sucede entodos los casos? Vamos a ver las posicles opciones de "Tipo".

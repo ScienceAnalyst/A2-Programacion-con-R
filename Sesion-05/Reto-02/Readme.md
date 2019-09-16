@@ -1,11 +1,12 @@
- agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks]  
-## Titulo del Ejemplo 
+`Data Science` > [`Programacion con R`]
+## Visualizacion, graficos y tablas
 
-### OBJETIVO 
- - Lo que esperamos que el alumno aprenda 
+### OBJETIVO
+- Crear un grafico de densidad
 
-#### REQUISITOS 
-1. Lo necesario para desarrollar el ejemplo o el Reto 
+#### REQUISITOS
+1. Contar con R studio.
+1. Usar la carpeta de trabajo `Sesion05/Reto-02`
 
 #### DESARROLLO
-
+Vamos a crear un grafico de densidad sobre todas las colonias que tienen ecobici (hint: package ggplot2 funcion geom_density(); la variable Colonia es categorica, por lo que la tendremos que factorizar). 
