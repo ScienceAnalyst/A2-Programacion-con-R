@@ -1,5 +1,15 @@
 `Data Science` > [`Programacion con R`]
 
+### OBJETIVO
+- Operaciones posibles desde la calculadora de R
+- Ver los componentes de un package
+
+#### REQUISITOS
+1. Contar con R studio
+1. Usar la carpeta de trabajo `Sesion-01/Postwork`
+
+#### DESARROLLO
+
 Para seguir practicando con ejercicios sobre la calculadora de R, podemos usar el siguiente link. Aqui tenemos ejercicios online, asi como la definicion de la sintaxis para hacer cualquier tipo de operacion. Rpubs nos servira para reafirmar los conocimientos aprendidos durante el curso, asi que lo guardaremos para futuras dudas:
 <http://rpubs.com/rparra/438560> 
 
