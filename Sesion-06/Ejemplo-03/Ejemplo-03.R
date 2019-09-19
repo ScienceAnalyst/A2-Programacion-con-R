@@ -1,7 +1,7 @@
 library('ggplot2')
 library('forecast')
 library('tseries')
-setwd("~/Desktop/Bedu - Introducci??n R/A2-Programacion-con-R/Sesion-06/Ejemplo-03")
+
 dia <- read.csv("dia.csv")
 hora <- read.csv("hora.csv")
 str(dia)

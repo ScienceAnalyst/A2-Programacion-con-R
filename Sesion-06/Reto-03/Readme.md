@@ -2,11 +2,15 @@
 ## Series de tiempo
 
 ### OBJETIVO
-- Crear un histograma
+- Transformar las fechas en serie de tiempo
+- Descomponer los factores de la serie de tiempo
+- Visualizar el grafico de tendencia descompuesta 
 
 #### REQUISITOS
 1. Contar con R studio.
 1. Usar la carpeta de trabajo `Sesion06/Reto-03`
 
 #### DESARROLLO
-Vamos a crear un histograma de los nombres de colonia y el numero de estaciones que hay en cada una de ellas (hint: package ggplot2 funcion geom_bar() ). 
+* Crear una serie de tiempo con la funcion ts() para la variable milk_prod_per_cow_kg donde start = 1962, end = 1975 y periodicidad mensual (freq=12) 
+* Descomponemos la tendencia con la funcion stl() para la serie de tiempo que creamos y s.window="period" 
+* Visualiza la serie de tiempo y la serie de tiempo descompuesta 

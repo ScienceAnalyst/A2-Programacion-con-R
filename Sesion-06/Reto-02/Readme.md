@@ -2,7 +2,7 @@
 ## Series de tiempo
 
 ### OBJETIVO
-- Crear un histograma
+- Mejorar la visualizacion con colores creando distincion temporal entre meses y anos
 
 #### REQUISITOS
 1. Contar con R studio.
