@@ -1,11 +1,12 @@
- agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks]  
-## Titulo del Ejemplo 
+`Data Science` > [`Programacion con R`]
+## Series de tiempo
 
-### OBJETIVO 
- - Lo que esperamos que el alumno aprenda 
+### OBJETIVO
+- Crear un histograma
 
-#### REQUISITOS 
-1. Lo necesario para desarrollar el ejemplo o el Reto 
+#### REQUISITOS
+1. Contar con R studio.
+1. Usar la carpeta de trabajo `Sesion06/Reto-03`
 
 #### DESARROLLO
-
+Vamos a crear un histograma de los nombres de colonia y el numero de estaciones que hay en cada una de ellas (hint: package ggplot2 funcion geom_bar() ). 
