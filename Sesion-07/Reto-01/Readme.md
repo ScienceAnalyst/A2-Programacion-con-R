@@ -1,5 +1,5 @@
 `Data Science` > [`Programacion con R`]
-## Ejercicios pr??cticos (storytelling); Kaggle
+## Ejercicios practicos (storytelling); Kaggle
 
 ### OBJETIVO
 - Seguir un ejercicio completo con una hipotesis. 
