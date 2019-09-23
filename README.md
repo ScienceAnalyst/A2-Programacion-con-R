@@ -1,6 +1,4 @@
- 
-
-`Data Analysis` > `A2-Programación-con-R`
+ `Data Analysis` > `A2-Programación-con-R`
 
 ## Módulo: Programación-con-R
 

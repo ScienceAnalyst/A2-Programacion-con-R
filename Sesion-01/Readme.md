@@ -1,11 +1,19 @@
- agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks]  
-## Titulo de la Sesion 
+`Data Analysis` > `A2-Programación-con-R`
 
-### OBJETIVOS 
- - Lo que esperamos que el alumno aprenda al finalizar la sesion 
+## Fundamentos de R studio y sus paquetes	 
+
+### OBJETIVO
+
+ - Conocer los conceptos básicos de Big Data, el funcionamiento de R y su uso potencial para estructurar código eficientemente.
+ - Identificar paquetes disponibles y comprender el rol de un Data Scientist.
 
 #### ORGANIZACION DE LA CLASE 
-- Tema que veran en el ejemplo
+
+- Operaciones
 	- [Ejemplo 01](Ejemplo-01)
 	- [Reto 01](Reto-01)
-
+- Paquetes
+	- [Ejemplo 02](Ejemplo-02)
+	- [Reto 02](Reto-02)
+- Calculadora en R
+	- [Postwork](Postwork)
