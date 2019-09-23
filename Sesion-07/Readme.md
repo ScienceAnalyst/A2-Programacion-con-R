@@ -1,11 +1,16 @@
- agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks]  
-## Titulo de la Sesion 
+`Data Analysis` > `A2-Programación-con-R`
+
+## Ejercicios prácticos (storytelling); Kaggle 
 
 ### OBJETIVOS 
- - Lo que esperamos que el alumno aprenda al finalizar la sesion 
+ - Identificar los pasos para estructurar un problema.
+ - Conocer la comunidad Kaggle para hacer análisis eficientes y consistentes que impacten a los equipos involucrados.
 
 #### ORGANIZACION DE LA CLASE 
-- Tema que veran en el ejemplo
+
+- Estructurando un problema 
 	- [Ejemplo 01](Ejemplo-01)
 	- [Reto 01](Reto-01)
 
+- Problemas planteados en Kaggle 
+	- [Postwork](Postwork)
