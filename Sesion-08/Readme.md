@@ -1,11 +1,23 @@
- agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks]  
-## Titulo de la Sesion 
+`Data Analysis` > `A2-Programación-con-R`
+  
+## Shiny 
 
-### OBJETIVOS 
- - Lo que esperamos que el alumno aprenda al finalizar la sesion 
+### OBJETIVO  
+ - Conocer los modelos más usados en Big Data para entender el alcance de los modelos en la resolución de un problema. 
 
 #### ORGANIZACION DE LA CLASE 
-- Tema que veran en el ejemplo
+
+- Regresión lineal  
 	- [Ejemplo 01](Ejemplo-01)
 	- [Reto 01](Reto-01)
 
+- Algoritmo KNN
+	- [Ejemplo 02](Ejemplo-02)
+	- [Reto 02](Reto-02)
+
+- Algoritmo Random Forest  
+	- [Ejemplo 03](Ejemplo-03)
+	- [Reto 03](Reto-03)
+
+- Entendiendo mejor los modelados.  
+	- [Postwork](Postwork)
