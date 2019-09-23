@@ -1,11 +1,23 @@
- agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks]  
-## Titulo de la Sesion 
+`Data Analysis` > `A2-Programación-con-R`
+
+## Visualización, gráficos y tablas 
 
 ### OBJETIVOS 
- - Lo que esperamos que el alumno aprenda al finalizar la sesion 
+ - Crear gráficos con paquetes de R seleccionando aquellos que aportan más información de forma que entregue analisis con visualización y transmita los resultados rápida y ordenadamente.
 
-#### ORGANIZACION DE LA CLASE 
-- Tema que veran en el ejemplo
+#### ORGANIZACION DE LA CLASE
+
+- Creando un histograma
 	- [Ejemplo 01](Ejemplo-01)
 	- [Reto 01](Reto-01)
 
+- Creando un gráfico de densidad 
+	- [Ejemplo 02](Ejemplo-02)
+	- [Reto 02](Reto-02)
+
+- Creando un un boxplot
+	- [Ejemplo 03](Ejemplo-03)
+	- [Reto 03](Reto-03)
+
+- Visualizacion avanzada
+	- [Postwork](Postwork)
