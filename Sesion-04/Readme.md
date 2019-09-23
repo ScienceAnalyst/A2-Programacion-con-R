@@ -1,11 +1,25 @@
- agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks]  
-## Titulo de la Sesion 
+`Data Analysis` > `A2-Programación-con-R`
+  
+## Exploración de datos
 
 ### OBJETIVOS 
- - Lo que esperamos que el alumno aprenda al finalizar la sesion 
+ - Conocer estrategias para analizar información.
+ - Comprender problemas de negocio e hipótesis relevantes para identificar.
+ - Ordenar y resolver necesidades por medio de la programación.
 
-#### ORGANIZACION DE LA CLASE 
-- Tema que veran en el ejemplo
+#### ORGANIZACION DE LA CLASE
+
+- Exploración primeria de una tabla 
 	- [Ejemplo 01](Ejemplo-01)
 	- [Reto 01](Reto-01)
 
+- Hipótesis sobre los datos
+	- [Ejemplo 02](Ejemplo-02)
+	- [Reto 02](Reto-02)
+
+- Operaciones sobre los datos
+	- [Ejemplo 01](Ejemplo-01)
+	- [Reto 01](Reto-01)
+
+- Correlaciones y su interpretacion 
+	- [Postwork](Postwork)
