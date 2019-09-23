@@ -1,11 +1,16 @@
- agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks]  
-## Titulo de la Sesion 
+`Data Analysis` > `A2-Programación-con-R`
+
+## Programación orientada a objetos
 
 ### OBJETIVOS 
- - Lo que esperamos que el alumno aprenda al finalizar la sesion 
+ - Identificar la tipología de objetos existentes.
+ - Crear tablas y resolver operaciones con objetos, para estructurar bases de datos, entender sus componentes y operar los elementos que la integran. 
 
 #### ORGANIZACION DE LA CLASE 
-- Tema que veran en el ejemplo
+
+- Importar un fichero de datos
 	- [Ejemplo 01](Ejemplo-01)
 	- [Reto 01](Reto-01)
-
+- Dplyr
+	- [Ejemplo 02](Ejemplo-02)
+	- [Reto 02](Reto-02)
