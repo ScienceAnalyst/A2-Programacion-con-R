@@ -1,6 +1,6 @@
 `Data Analysis` > `A2-Programación-con-R`
   
-## Shiny 
+## Inicio al modelaje de datos 
 
 ### OBJETIVO  
  - Conocer los modelos más usados en Big Data para entender el alcance de los modelos en la resolución de un problema. 
