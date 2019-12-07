@@ -2,7 +2,7 @@
 ## Ejercicios practicos (storytelling); Kaggle
 
 ### OBJETIVO
-- Seguir un ejercicio completo con una hipotesis. 
+- Contar una historia con los datos. 
 
 #### REQUISITOS
 1. Contar con R studio.
