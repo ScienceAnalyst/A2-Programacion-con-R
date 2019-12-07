@@ -25,7 +25,7 @@ Ahora, es necesario que descarguen los datos del archivo `multiple_choice_respon
 Carguemos los datos al entorno:
 
 ```
-mc_responses <- read.csv("~/Desktop/BEDU/BEDU_DA/multiple_choice_responses.csv")
+mc_responses <- read.csv("~/BEDU_DA/multiple_choice_responses.csv")
 ```
 
 Como ya vimos, queremos conectar con el contexto de nuestra audiencia. Por lo que vamos a comenzar por identificar la distribución de data scientists por género: 
