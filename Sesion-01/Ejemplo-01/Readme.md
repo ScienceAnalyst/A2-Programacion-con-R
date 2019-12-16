@@ -14,6 +14,8 @@
 
 ![formula rectangulo](img/1.png)
 
+![formula rectangulo](img/figRectangulo.png)
+
 Asignaremos las variables necesarias para realizar la operación en RStudio
 
 	
@@ -27,6 +29,8 @@ Asignaremos las variables necesarias para realizar la operación en RStudio
 2. Calcular el área de un triangulo
 
 ![formula triangulo](img/formulaTriangulo.png)
+
+![formula triangulo](img/figTriangulo.png)
 
 Asignaremos las variables necesarias para realizar la operación en RStudio
 
@@ -42,6 +46,8 @@ Asignaremos las variables necesarias para realizar la operación en RStudio
 
 ![formula rectangulo](img/formulaCirculo.png)
 
+![formula triangulo](img/figCirculo.png)
+
 Asignaremos las variables necesarias para realizar la operación en RStudio
 
 	
@@ -54,6 +60,8 @@ Asignaremos las variables necesarias para realizar la operación en RStudio
 5. Calcular el área de un Trapecio
 
 ![formula rectangulo](img/formulaTrapecio.png)
+
+![formula rectangulo](img/figTrapecio.png)
 
 Asignaremos las variables necesarias para realizar la operación en RStudio
 
