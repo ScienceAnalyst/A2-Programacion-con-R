@@ -2,16 +2,16 @@
 ## Programacion orientada a objetos  
 
 ### OBJETIVO
-- Usar el package dplyr para optimizar codigo 
-- Importar un fichero de una ruta con la funcion read_excel
-- Evaluar las variables que contiene la tabla y filtrarlas con la funcion select
+- Importación de un dataset
+- Cambiar los valores de un objeto
 
 #### REQUISITOS
 1. Contar con R studio.
 1. Usar la carpeta de trabajo `Sesion02/Reto-01`
 
 #### DESARROLLO
-Importamos la tabla de Ecobici con la que hemos estado trabajando (hint: read_excel). A nuestra tabla la llamaremos "ecobici".
-Observaremos la calidad de los datos importados y seleccionaremos las variables mas importantes para el analisis (hint: select). 
+Importamos el dataset de **Spotify**, desplegaremos su estructura e identifiaremos la variable del tiempo que se encuentra en **ms** , se realizaran las operaciones necesarias para convertir el valor a **minutos**
+
+[Solución](solucion)
 
 

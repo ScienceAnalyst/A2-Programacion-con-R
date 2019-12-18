@@ -8,7 +8,7 @@
 
 #### REQUISITOS
 1. Contar con R studio.
-1. Usar la carpeta de trabajo `Sesion02/Reto-01`
+1. Usar la carpeta de trabajo `Sesion02/Reto-02`
 
 #### DESARROLLO
 Importamos la tabla de Ecobici con la que hemos estado trabajando (hint: read_excel). A nuestra tabla la llamaremos "ecobici".

@@ -7,7 +7,7 @@
 
 #### REQUISITOS
 1. Contar con R studio.
-1. Usar la carpeta de trabajo `Sesion02/Ejemplo-02`
+1. Usar la carpeta de trabajo `Sesion02/Ejemplo-03`
 
 #### DESARROLLO
 Con la ayuda del package dplyr, haremos los siguientes comandos con una sola orden (Hint: usar "%>%")
