@@ -32,12 +32,6 @@ print(n)
 }
 ```
 
-#Recorre los valores contenidos en el data frame.
-```{r}
-head(mtcars)
-mtcars <- mtcars 
-for(i in 1:100) {print(mtcars$'nombre carro'[i])}
-```{r}
 
 Vamos a crear una un funcion para obtener los primeros cien nombres de carros (variable) de mtcars (base de la informacion)
 
