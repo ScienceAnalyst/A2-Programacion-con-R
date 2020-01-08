@@ -2,45 +2,53 @@
 ## Funciones, condiciones y loops
 
 ### OBJETIVO
-- Aprender a hacer un loop con IF ELSE 
+- Aprender a hacer un loop con WHILE 
 
 #### REQUISITOS
 1. Contar con R studio.
-1. Usar la carpeta de trabajo `Sesion03/Ejemplo-01`
+1. Usar la carpeta de trabajo `Sesion03/Ejemplo-03`
 
 #### DESARROLLO
 
-Vamos a crear una un funcion para validar si nuestra variable es superior a 40 
+#Sintaxis basica de bucle.
 ```{r}
-variable <- 8
-if (variable > 40){
-  print("La variable es superior a 40")
-} else {
-  print ("La variable no es superior a 40")
+while (test_expression) {
+   statement
 }
 ```
 
-Alternativamente, podemos usar la funcion ifelse, que nos ayudara a plantear el resultado a obtener si se cumple la condicion, y a continuacion el resultado a obtener si no se cumple la misma 
+
+##Creemos una lista de precios que asociaremos a nuestros productos. Iniciaremos por un valor de 20MXN y crearemos una ##funcion para que incrementen en 5MXN hasta llegar a un precio de 2500MXN. 
+
 ```{r}
-ifelse(variable>40, "La variable es superior a 40", "La variable no es superior a 40")
+precio <- 20
 
-``` 
-
-Vamos a probar con dos condiciones dentro del if para conocer las funciones de AND y OR.
-```{r}
-
-#Condición con OR o AND
-
-A <- 8
-B <- 17
-C <- 10
-D <- 10
-if (A > B || C == D){ # probar con AND (&)
-print("TRUE")
-} else {
-print ("FALSE")
+while(precio <= 2500){
+  print(precio)
+  precio <- precio + 5 
 }
 
-ifelse(A > B || C == D, "TRUE", "FALSE")
+```
 
-``` 
+
+# Iterar un array de cadenas.
+```{r}
+v <- c("Hello","while loop")
+cnt <- 2
+
+while (cnt < 7) {
+   print(v)
+   cnt = cnt + 1
+}
+```
+
+# Estructura de control dentro de ciclo While.
+```{r}
+x <- 0
+while(x < 5){
+  x <- x+1;
+  if (x == 3)
+    next; 
+  print(x);
+  }
+  ```
