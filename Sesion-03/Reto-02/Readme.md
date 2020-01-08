@@ -9,4 +9,14 @@
 1. Usar la carpeta de trabajo `Sesion03/Reto-02`
 
 #### DESARROLLO
-Seguimos usando nuestra base de datos de ecobici. En este caso, queremos encontrar todas aquellas colonias que tengan estaciones de ecobici y esten a una latitud (lineas horizontales) mas al norte de la entrada principal de Parque Chapultepec en Reforma (latitud de 19.423396). Para ello, nos apoyaremos de la funcion "for" y buscaremos un vector logico (FALSE y TRUE) de aquellas colonias que cumplan dicha condicion.
+### Utilizando el Dataset de airquality.
+
+- Investigar el detalle de cada columna del DataSet.
+
+- Utilizando ciclo For y la sentencia IF/ELSE; 
+    * Contar cuantos días el promedio de velocidad del aire es: Mayor a 7, Menor a 4 y 
+      cuántos registros existen dentro de ese rango(4-7). 
+    
+- Calcular el promedio total de la Columna Temp.
+
+  
