@@ -18,7 +18,7 @@ while (test_expression) {
 ```
 
 
-##Creemos una lista de precios que asociaremos a nuestros productos. Iniciaremos por un valor de 20MXN y crearemos una ##funcion para que incrementen en 5MXN hasta llegar a un precio de 2500MXN. 
+#Creemos una lista de precios que asociaremos a nuestros productos. Iniciaremos por un valor de 20MXN y crearemos una #funcion para que incrementen en 5MXN hasta llegar a un precio de 2500MXN. 
 
 ```{r}
 precio <- 20
