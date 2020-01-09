@@ -1,24 +1,33 @@
-#Condición simple.
-
-variable <- 8
-if (variable > 40){
-print("La variable es superior a 40")
-} else {
-print ("La variable no es superior a 40")
+#Sintaxis basica de bucle.
+while (test_expression) {
+   statement
 }
 
-ifelse(variable>40, "La variable es superior a 40", "La variable no es superior a 40")
+# Ciclo While ejemplo.
 
-#Condición con OR o AND
+precio <- 20
 
-A <- 8
-B <- 17
-C <- 10
-D <- 10
-if (A > B || C == D){ # probar con AND (&)
-print("TRUE")
-} else {
-print ("FALSE")
+while(precio <= 2500){
+  print(precio)
+  precio <- precio + 5 
 }
 
-ifelse(A > B || C == D, "TRUE", "FALSE")
+# Iterar un array de cadenas.
+
+v <- c("Hello","while loop")
+cnt <- 2
+
+while (cnt < 7) {
+   print(v)
+   cnt = cnt + 1
+}
+
+# Estructura de control dentro de ciclo While.
+
+x <- 0
+while(x < 5){
+  x <- x+1;
+  if (x == 3)
+    next; 
+  print(x);
+  }
