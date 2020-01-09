@@ -9,23 +9,21 @@ data("airquality")
     # Contar cuantos días el promedio de velocidad del aire es: Mayor a 7, Menor a 4 y 
     # cuántos registros existen dentro de ese rango(4-7).
       
-      menor <- 0
-      dentro <- 0
-      mayor <- 0
-      for(i in airquality$Wind){
-        if(i > 7){
-          mayor <- mayor + 1
-        }else{
-          if(i < 4){
-            menor <- menor + 1
-          }else{
-            dentro <- dentro + 1
-          }
-        }
-      }
-     print(mayor)
-     print(menor)
-     print(dentro)
+cmayor <- 0 # > 7
+cmenor <- 0 # < 4
+cresto <- 0 # 4-7
+for(i in airquality$Wind){
+  if(i > 7){
+    cmayor <- cmayor + 1
+  }else {
+     if( i < 4){
+       cmenor <- cmenor + 1
+     }else{
+       cresto <- cresto + 1
+     }
+  }
+}
+paste(cmenor, " Menores, ", cmayor, " Mayores, ", cresto, " Entre 4 y 7")
     
 # Calcular el promedio total de la Columna Temp.
 
