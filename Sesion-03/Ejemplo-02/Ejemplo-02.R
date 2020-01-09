@@ -19,4 +19,4 @@ print(n)
 #Recorre los valores contenidos en el data frame.
 head(mtcars)
 mtcars <- mtcars 
-for(i in 1:Nrow(mtcars)) {print(mtcars$'nombre carro'[i])}
+for(i in 1:nrow(mtcars)) {print(mtcars$model[i])}
