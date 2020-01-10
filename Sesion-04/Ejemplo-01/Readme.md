@@ -2,11 +2,11 @@
 ## Exploracion de datos
 
 ### OBJETIVO
-- Aprender a hacernos preguntas sobre un problema  
+- Aprender a conocer patrones en un dataset.
 
 #### REQUISITOS
 1. Contar con R studio.
-1. Usar la carpeta de trabajo `Sesion04/Ejemplo-01`
+2. Usar la carpeta de trabajo `Sesion04/Ejemplo-01`
 
 #### DESARROLLO
 
