@@ -1,29 +1,41 @@
 `Data Science` > [`Programacion con R`]
-## Dplyr en un solo comando
+## Dplyr
 
 ### OBJETIVO
+- Aprenderas a cargar un package
 - Aprenderas a usar dplyr
-- Aprenderas a crear una orden compleja en un solo comando de codigo
+- Aprenderas a seleccionar y filtrar informacion 
 
 #### REQUISITOS
 1. Contar con R studio.
 1. Usar la carpeta de trabajo `Sesion02/Ejemplo-02`
 
 #### DESARROLLO
-Con la ayuda del package dplyr, haremos los siguientes comandos con una sola orden (Hint: usar "%>%")
+
+
+Cargamos el paquete que nos permitira hacer el ejercicio   
 ```{r}
 library(dplyr)
 ```
 
-Usa la base de datos precargada llamada iris y calcula la media de la sepal.length y la sepal.width segun la especie.
-Finalmente, ordena los resultas alfabeticamente segun la especie. 
+Vamos a usar la informacion de mtcars, ya disponible en R 
 ```{r}
-head(iris)
-library
-iris <- iris # Guardo la tabla en la memoria de objetos
-iris %>% # Datos que usare
-  group_by(Species) %>% # Variable de agrupacion
-  summarise(Media_Sepal_Length = mean(Sepal.Length), # Media de sepal length
-            Media_Sepal_Width = mean(Sepal.Width)) %>% # Media de sepal width
-  arrange(Species) # Ordenar por especies (por defecto es orden ascendiente)
+head(mtcars)
+```
+
+Creamos la variable mtcars para poder hacer operaciones sobre esos datos 
+```{r}
+mtcars <- mtcars 
+```
+
+Selecciona las variables nombre del carro, millas por galon y horse power 
+```{r}
+select(mtcars, 'nombre carro', mpg, hp) 
+```
+Usamos las comillas para que detecte que es una palabra compuesta 
+
+
+Filtra por aquellos vehiculos que tengan hp mayor a 200 y su nombre contenga la letra "a" 
+```{r}
+filter(mtcars, grepl("a", 'nombre carro') & hp > 200 )
 ```

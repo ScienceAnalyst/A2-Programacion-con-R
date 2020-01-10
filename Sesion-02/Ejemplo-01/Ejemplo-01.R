@@ -1,12 +1,30 @@
+#El comando STR deplegara la estructura de nuestro data set
 
-head(mtcars)
+str(mtcars)
 
-library(dplyr) 
+#Para identificar el tipo de dato de un objeto, utilizaremos class
 
-mtcars <- mtcars 
+class(mtcars$vs)
 
-select(mtcars, 'nombre carro', mpg, hp)
+#Cambiaremos el tipo de dato integer a logical 
 
-filter(mtcars, grepl("a", 'nombre carro') & hp > 200 )
+mtcars$vs = as.logical(mtcars$vs)
+mtcars$am = as.logical(mtcars$am)
 
+#Validaremos los cambios de tipo de dato
 
+class(mtcars$vs)
+class(mtcars$am)
+
+summary(mtcars)
+
+#Transformación de valores
+
+wt <- (mtcars$wt*1000/2.204623)
+wt
+
+##Transformación del dataset
+
+mtcars.new <- transform(mtcars, wt = wt * 1000 / 2.204623)
+
+summary(mtcars)

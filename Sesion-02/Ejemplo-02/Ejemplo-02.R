@@ -1,9 +1,12 @@
- 
-head(iris)
-library
-iris <- iris 
-iris %>% 
-  group_by(Species) %>%
-  summarise(Media_Sepal_Length = mean(Sepal.Length), 
-            Media_Sepal_Width = mean(Sepal.Width)) %>% 
-  arrange(Species)
+
+head(mtcars)
+
+library(dplyr) 
+
+mtcars <- mtcars 
+
+select(mtcars, 'nombre carro', mpg, hp)
+
+filter(mtcars, grepl("a", 'nombre carro') & hp > 200 )
+
+

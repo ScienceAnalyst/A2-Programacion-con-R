@@ -10,6 +10,29 @@
 
 #### DESARROLLO
 
+# Recorre una secuencia desde hasta 10 de uno en uno
+```{r}
+for (i in 1:10) {
+  print (i)
+}
+```
+
+#Recorre los valores contenidos en el vector
+```{r}
+for (n in c(2,5,10,20,50)) {
+print(n)
+}
+```
+
+#Recorre los valores contenidos en el vector de Strings.
+```{r}
+arrayString <- c("Loops.","ForLoop","WhileLoop","DoWhileLoop","WhileLoop")
+for (n in arrayString) {
+print(n)
+}
+```
+
+
 Vamos a crear una un funcion para obtener los primeros cien nombres de carros (variable) de mtcars (base de la informacion)
 
 ```{r}
