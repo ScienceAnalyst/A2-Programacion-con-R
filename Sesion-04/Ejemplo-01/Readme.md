@@ -10,28 +10,35 @@
 
 #### DESARROLLO
 
-Importamos la base de datos de muestra mtcars
-Importaremos la libreria dplyr
-Comprobemos si tiene registros vacios
+Importamos la base de datos de spotify.
+Conocer como está estructurado el dataset
+Conocer a detalle los datos de cada columna 
+Conocer el número de observaciones.
+Conocer el número de columnas.
+Conocer la media de duración de las canciones en ms.
+Conocer la mediana de acústica.
+Graficar el historial de casos para conocer en qué rango de minutos existen más registros.
 
 ```{r}
-library(dplyr)
-mtcars <- mtcars 
-sum(is.na(mtcars))
+head(spotify)
+str(spotify)
+nrow(spotify)
+ncol(spotify)
+mean(spotify$duration_ms)
+median(spotify$acousticness)
 
 ```
 
-Ya observamos que no hay registros vacios. 
-Para seguir con el analisis de la tabla, veremos su estructura. 
+Convertir el tiempo en ms a minutos.
 
 ```{r}
-str(mtcars)
+duracion <- ((spotify$duration_ms/1000)/60)
 ```
-Asi podemos observar la tipologia de cada variable. Vemos que tenemos 32 observaciones (filas) y 14 variables (columnas). Tambien podemos ver que todas las variables son numericas, excepto el nombre de la marca que es un factor y mpg_type que es un caracter. 
+Graficar el historial de casos para conocer en qué rango de minutos existen más registros.
 
-Queremos comprar un carro y vamos a priorizar el consumo (mpg - millas por galon) y la velocidad (hp - horsepower). 
-Cual es la correlacion entre ambas variables? 
 ```{r}
-cor(mtcars$hp,mtcars$mpg)
+set.seed(123)
+ejemplo <- rnorm(n = 10000, mean = 0, sd = 1)
+hist(duracion, col='orange', breaks=40, 
+     ylab = "Frecuencia", main = "Histograma ejemplo")
 ```
-Ambas variables estan correlacionadas negativamente, a mas velocidad menos millas por galon (correlacion negativa del 77%)
