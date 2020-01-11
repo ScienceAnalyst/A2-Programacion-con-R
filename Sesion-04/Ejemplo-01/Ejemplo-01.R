@@ -1,3 +1,18 @@
+#Graficos de base.
+tiempo <- c(1:10)
+respuesta <- c(1:4, seq(10, 20, 2))  
+
+plot(tiempo,respuesta,
+     type='b',
+     pch=19,
+     col="black",
+     main = "Respuesta vs tiempo",
+     ylab = "Respuesta",
+     xlab = "Tiempo")
+
+
+#Ejemplo de histograma con dataset de Spotify.
+
 head(spotify) #Conocer como está estructurado el dataset
 str(spotify)  #Conocer a detalle los datos de cada columna  
 nrow(spotify) #Conocer el número de observaciones.
