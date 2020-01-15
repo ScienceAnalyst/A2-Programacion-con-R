@@ -9,4 +9,6 @@
 1. Usar la carpeta de trabajo `Sesion05/Reto-01`
 
 #### DESARROLLO
-Vamos a crear un histograma de los nombres de colonia y el numero de estaciones que hay en cada una de ellas (hint: package ggplot2 funcion geom_bar() ). 
+Importamos la base de datos de muestra mpg
+Importaremos la libreria ggplot2
+Realizaremos un recuento de cuantos vehiculos de cada tipologia (compactos, suv, pickups, etc.) hay por cada marca (Toyota, Honda, etc.) 
