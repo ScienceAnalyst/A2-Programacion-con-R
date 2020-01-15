@@ -1,6 +1,22 @@
-library(ggplot2)
-head(mpg)
-mpg<-mpg
-vis <- ggplot(mpg, aes(manufacturer))
-vis + geom_bar(aes(fill=class), width = 0.5) + 
-  theme(axis.text.x = element_text(angle=65, vjust=0.6)) 
+
+#Cargamos el DS de NBA en un objeto llamado nba.
+nba <- NBA_players_by_season
+head(nba)
+#Filtramos el DS por nacionalidad y obtenemos los jugadores mexicanos.
+mxplayer <- nba %>% 
+  filter(Nationality == 'Mexico')
+print(mxplayer)
+#Filtramos el DS resultante para obtener datos de Gustavo Ayon.
+ayon<- mxplayer %>% 
+  filter(Player == 'Gustavo Ayon')
+print(ayon)
+#Seleccionamos  del DS resultante las columnas: Player, Season.short, Games y Games.missed
+games <- ayon %>% 
+  select(Player, Season.short, Games, Games.missed)
+print(games)
+#Utilizando librería ggplot2.
+#Realizamos una gráfica que nos muestre cada año los juegos ganados y perdidos en la misma columna.
+
+ggplot(games, aes(fill=Games, y=Games, x=Season.short))+
+  geom_bar(position = "stack", stat = "identity")
+ 
