@@ -9,4 +9,9 @@
 1. Usar la carpeta de trabajo `Sesion05/Reto-02`
 
 #### DESARROLLO
-Vamos a crear un grafico de densidad de los nombres de colonia la densidad de distribucion de ellas (hint: package ggplot2 funcion geom_density() ). 
+
+-Obtener jugadores estadounidenses y sus edades.
+-Imprimir el conteo de las edades.
+
+
+ 
