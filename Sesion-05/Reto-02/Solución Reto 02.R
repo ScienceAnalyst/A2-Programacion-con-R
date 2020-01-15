@@ -1,10 +1,13 @@
+nba <- NBA_players_by_season
 
-library("readxl")
-library("dplyr")
-library("ggplot2")
-ecobici <- read_excel("ecobici.xls")
-head(ecobici)
+print(usplayers)
+#Obtener jugadores estadounidenses y sus edades.
+usplayers <- nba %>% 
+  filter(Nationality=='United States') %>% 
+  select(Age, Nationality)
 
-vis <- ggplot(ecobici, aes(Colonia))
-vis + geom_density(aes(fill=factor(Colonia)), alpha=0.8)
+#Imprimir el conteo de las edades.
+ggplot(data=usplayers, aes(x=Age))+
+  geom_bar(aes(y=(..count..)))+
+    geom_text(stat='count', aes(label=..count..), vjust=-1)
 
