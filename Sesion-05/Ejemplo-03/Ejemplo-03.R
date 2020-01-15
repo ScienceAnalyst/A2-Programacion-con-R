@@ -1,6 +1,9 @@
-mpg <- mpg
-vis <- ggplot(mpg, aes(class, cty))
-vis + geom_boxplot(varwidth=T, fill="plum") 
+??airquality
 
-vis + geom_boxplot(aes(fill=factor(cyl))) + 
-  theme(axis.text.x = element_text(angle=65, vjust=0.6)) 
+#Temp Temperatura máxima en grados Fahrenheit en Aeropuerto La Guardia.
+airquality$Month <- factor(airquality$Month,
+                           labels = c("May", "Jun", "Jul", "Aug", "Sep"))
+
+print(airquality$Month)
+ggplot(airquality, aes(x = Month, y = Temp)) +
+  geom_boxplot()
