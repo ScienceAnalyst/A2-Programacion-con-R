@@ -10,22 +10,17 @@
 
 #### DESARROLLO
 
-Importamos la base de datos de muestra mpg
+Importamos la base de datos de muestra airquality
 Importaremos la libreria ggplot2
-Crearemos un boxplot para evaluar la variable cty (city miles per gallon) en funcion de la clase de vehiculo
-
+Crearemos un boxplot para evaluar la variable Temp (Temperara máxima en gradis F)
 ```{r}
-mpg <- mpg
-vis <- ggplot(mpg, aes(class, cty))
-vis + geom_boxplot(varwidth=T, fill="plum") 
+??airquality
+
+#Temp Temperatura máxima en grados Fahrenheit en Aeropuerto La Guardia.
+airquality$Month <- factor(airquality$Month,
+                           labels = c("May", "Jun", "Jul", "Aug", "Sep"))
+
+print(airquality$Month)
+ggplot(airquality, aes(x = Month, y = Temp)) +
+  geom_boxplot() 
 ```
-
-Ahora, usando la variable cilindros como factor podremos anadirla en el boxplot a partir del color 
-
-```{r}
-vis + geom_boxplot(aes(fill=factor(cyl))) + 
-  theme(axis.text.x = element_text(angle=65, vjust=0.6)) 
-```
-
-
-
