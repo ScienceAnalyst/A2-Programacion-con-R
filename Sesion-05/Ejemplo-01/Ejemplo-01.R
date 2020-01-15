@@ -10,9 +10,9 @@ print(mxplayer)
 ayon<- mxplayer %>% 
   filter(Player == 'Gustavo Ayon')
 print(ayon)
-#Seleccionamos  del DS resultante las columnas: Player, Season.short, Games y Games.missed
+#Seleccionamos  del DS resultante las columnas: Player, Season.short y Games.
 games <- ayon %>% 
-  select(Player, Season.short, Games, Games.missed)
+  select(Player, Season.short, Games)
 print(games)
 #Utilizando librería ggplot2.
 #Realizamos una gráfica que nos muestre cada año los juegos ganados y perdidos en la misma columna.
@@ -20,3 +20,4 @@ print(games)
 ggplot(games, aes(fill=Games, y=Games, x=Season.short))+
   geom_bar(position = "stack", stat = "identity")
  
+
